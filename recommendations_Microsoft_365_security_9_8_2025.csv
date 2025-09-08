@@ -1,0 +1,93 @@
+﻿Name,State,Impact,Workload,Domain,Last calculated,Last state change,Related initiatives,Related metrics
+"Block executable files from running unless they meet a prevalence, age, or trusted list criterion",NOT COMPLIANT,high,MDATP,device,2025-09-08T05:00:32.000Z,,48,2
+Enable EDR in block mode,NOT COMPLIANT,high,MDATP,device,2025-09-08T05:00:32.000Z,,43,2
+Enable 'Network Protection',NOT COMPLIANT,high,MDATP,device,2025-09-08T05:00:32.000Z,,35,2
+Turn on Tamper Protection,NOT COMPLIANT,high,MDATP,device,2025-09-08T05:00:32.000Z,,30,2
+Use advanced protection against ransomware,NOT COMPLIANT,high,MDATP,device,2025-09-08T05:00:32.000Z,,30,1
+Block process creations originating from PSExec and WMI commands,NOT COMPLIANT,high,MDATP,device,2025-09-08T05:00:32.000Z,,22,1
+Block credential stealing from the Windows local security authority subsystem (lsass.exe),NOT COMPLIANT,high,MDATP,device,2025-09-08T05:00:32.000Z,,22,1
+Block execution of potentially obfuscated scripts,NOT COMPLIANT,high,MDATP,device,2025-09-08T05:00:32.000Z,,16,1
+Turn on real-time protection,NOT COMPLIANT,high,MDATP,device,2025-09-08T05:00:32.000Z,,16,2
+Block all Office applications from creating child processes,NOT COMPLIANT,high,MDATP,device,2025-09-08T05:00:32.000Z,,14,1
+Block Office applications from creating executable content,NOT COMPLIANT,high,MDATP,device,2025-09-08T05:00:32.000Z,,12,1
+Ensure 'Phishing-resistant MFA strength' is required for Administrators,NOT COMPLIANT,high,AzureAD,apps,2025-09-08T04:15:32.000Z,,11,9
+Ensure multifactor authentication is enabled for all users in administrative roles,NOT COMPLIANT,high,AzureAD,identity,2025-09-03T18:59:25.000Z,,10,6
+Block JavaScript or VBScript from launching downloaded executable content,NOT COMPLIANT,high,MDATP,device,2025-09-08T05:00:32.000Z,,9,2
+Turn on PUA protection in block mode,NOT COMPLIANT,high,MDATP,device,2025-09-08T05:00:32.000Z,,7,2
+Ensure multifactor authentication is enabled for all users,NOT COMPLIANT,high,AzureAD,identity,2025-09-03T18:59:25.000Z,,7,5
+Block executable content from email client and webmail,NOT COMPLIANT,high,MDATP,device,2025-09-08T05:00:32.000Z,,6,1
+Turn on Microsoft Defender Credential Guard,NOT COMPLIANT,high,MDATP,device,2025-09-08T05:00:32.000Z,,5,1
+Block Office applications from injecting code into other processes,NOT COMPLIANT,high,MDATP,device,2025-09-08T05:00:32.000Z,,5,1
+Block Office communication application from creating child processes,NOT COMPLIANT,high,MDATP,device,2025-09-08T05:00:32.000Z,,5,1
+Block abuse of exploited vulnerable signed drivers,NOT COMPLIANT,high,MDATP,device,2025-09-08T05:00:32.000Z,,4,1
+Block Win32 API calls from Office macros,NOT COMPLIANT,high,MDATP,device,2025-09-08T05:00:32.000Z,,4,2
+Set LAN Manager authentication level to 'Send NTLMv2 response only. Refuse LM & NTLM',NOT COMPLIANT,high,MDATP,device,2025-09-08T05:00:32.000Z,,3,2
+Set controlled folder access to enabled or audit mode,NOT COMPLIANT,high,MDATP,device,2025-09-08T05:00:32.000Z,,3,0
+Block untrusted and unsigned processes that run from USB,NOT COMPLIANT,high,MDATP,device,2025-09-08T05:00:32.000Z,,3,0
+Enable Microsoft Defender Antivirus email scanning,NOT COMPLIANT,high,MDATP,device,2025-09-08T05:00:32.000Z,,3,2
+Set Microsoft Defender SmartScreen app and file checking to block or warn,NOT COMPLIANT,high,MDATP,device,2025-09-08T05:00:32.000Z,2025-09-02T00:00:00.000Z,2,0
+Update Microsoft Defender Antivirus definitions,NOT COMPLIANT,high,MDATP,device,2025-09-08T05:00:32.000Z,2025-08-31T00:00:00.000Z,2,1
+Block persistence through WMI event subscription,NOT COMPLIANT,high,MDATP,device,2025-09-08T05:00:32.000Z,,2,0
+Turn on Microsoft Defender Antivirus,NOT COMPLIANT,high,MDATP,device,2025-09-08T05:00:32.000Z,,2,1
+Disable the built-in Administrator account,NOT COMPLIANT,high,MDATP,device,2025-09-08T05:00:32.000Z,,2,1
+Enable 'Local Security Authority (LSA) protection',NOT COMPLIANT,high,MDATP,device,2025-09-08T05:00:32.000Z,,2,1
+Turn on Microsoft Defender Antivirus real-time protection for Linux,NOT COMPLIANT,high,MDATP,device,2025-09-08T05:00:32.000Z,,2,1
+Update Microsoft Defender Antivirus definitions for Linux,NOT COMPLIANT,high,MDATP,device,2025-09-08T05:00:32.000Z,,2,1
+Move messages that are detected as impersonated users by mailbox intelligence,NOT COMPLIANT,high,MDO,apps,2025-09-07T22:55:34.000Z,,2,2
+Machines should have secrets findings resolved,NOT COMPLIANT,high,MDC,cloud,2025-09-08T01:18:03.000Z,2025-04-21T02:38:46.000Z,2,2
+Fix Microsoft Defender for Endpoint sensor data collection,NOT COMPLIANT,high,MDATP,device,2025-09-08T05:00:32.000Z,,1,1
+Block Adobe Reader from creating child processes,NOT COMPLIANT,high,MDATP,device,2025-09-08T05:00:32.000Z,,1,1
+Turn on Microsoft Defender for Endpoint sensor,NOT COMPLIANT,high,MDATP,device,2025-09-08T05:00:32.000Z,,1,2
+Secure Microsoft Defender firewall private profile,NOT COMPLIANT,high,MDATP,device,2025-09-08T05:00:32.000Z,,1,1
+Secure Microsoft Defender Firewall public profile,NOT COMPLIANT,high,MDATP,device,2025-09-08T05:00:32.000Z,,1,1
+Fix Microsoft Defender for Endpoint impaired communications,NOT COMPLIANT,high,MDATP,device,2025-09-08T05:00:32.000Z,,1,1
+Fix Windows Defender Antivirus cloud service connectivity,NOT COMPLIANT,high,MDATP,device,2025-09-08T05:00:32.000Z,,1,1
+Secure Microsoft Defender Firewall domain profile,NOT COMPLIANT,high,MDATP,device,2025-09-08T05:00:32.000Z,,1,1
+Enable scanning of removable drives during a full scan,NOT COMPLIANT,high,MDATP,device,2025-09-08T05:00:32.000Z,,1,1
+Update Microsoft Defender for Endpoint core components,NOT COMPLIANT,high,MDATP,device,2025-09-08T05:00:32.000Z,,1,1
+Change service executable path to a common protected location,NOT COMPLIANT,high,MDATP,device,2025-09-08T05:00:32.000Z,,1,1
+Change service account to avoid cached password in windows registry,NOT COMPLIANT,high,MDATP,device,2025-09-08T05:00:32.000Z,,1,1
+Fix Microsoft Defender for Endpoint sensor data collection for Linux,NOT COMPLIANT,high,MDATP,device,2025-09-08T05:00:32.000Z,2025-08-14T00:00:00.000Z,1,1
+Fix Microsoft Defender for Endpoint impaired communications for Linux,NOT COMPLIANT,high,MDATP,device,2025-09-08T05:00:32.000Z,2025-09-03T00:00:00.000Z,1,1
+Management ports of virtual machines should be protected with just-in-time network access control,NOT COMPLIANT,high,MDC,cloud,2025-09-08T01:18:03.000Z,2025-06-03T03:49:45.000Z,1,1
+Microsoft Defender for Azure SQL Database servers should be enabled,NOT COMPLIANT,high,MDC,cloud,2025-09-08T01:18:03.000Z,2025-06-02T11:07:13.000Z,1,1
+Microsoft Defender for App Service should be enabled,NOT COMPLIANT,high,MDC,cloud,2025-09-08T01:18:03.000Z,2025-06-13T00:48:03.000Z,1,1
+Microsoft Defender for Resource Manager should be enabled,NOT COMPLIANT,high,MDC,cloud,2025-09-08T01:18:03.000Z,2025-06-02T11:07:13.000Z,1,1
+Microsoft Defender for Containers should be enabled,NOT COMPLIANT,high,MDC,cloud,2025-09-08T01:18:03.000Z,2025-07-30T00:11:18.000Z,1,1
+Azure registry container images should have vulnerabilities resolved,NOT COMPLIANT,high,MDC,cloud,2025-09-08T01:18:03.000Z,,1,1
+Disable Solicited Remote Assistance,NOT COMPLIANT,high,MDATP,device,2025-09-08T05:00:32.000Z,,0,0
+Disable 'Allow Basic authentication' for WinRM Service,NOT COMPLIANT,high,MDATP,device,2025-09-08T05:00:32.000Z,,0,0
+Disable 'Always install with elevated privileges',NOT COMPLIANT,high,MDATP,device,2025-09-08T05:00:32.000Z,2025-08-18T00:00:00.000Z,0,0
+Set 'Remote Desktop security level' to 'TLS',NOT COMPLIANT,high,MDATP,device,2025-09-08T05:00:32.000Z,,0,0
+Disable 'Allow Basic authentication' for WinRM Client,NOT COMPLIANT,high,MDATP,device,2025-09-08T05:00:32.000Z,,0,0
+Restrict anonymous access to named pipes and Shares,NOT COMPLIANT,high,MDATP,device,2025-09-08T05:00:32.000Z,,0,0
+Enable 'Require additional authentication at startup',NOT COMPLIANT,high,MDATP,device,2025-09-08T05:00:32.000Z,,0,0
+Set default behavior for 'AutoRun' to 'Enabled: Do not execute any autorun commands',NOT COMPLIANT,high,MDATP,device,2025-09-08T05:00:32.000Z,,0,0
+Set User Account Control (UAC) to automatically deny elevation requests,NOT COMPLIANT,high,MDATP,device,2025-09-08T05:00:32.000Z,,0,0
+Disable Anonymous enumeration of shares,NOT COMPLIANT,high,MDATP,device,2025-09-08T05:00:32.000Z,,0,0
+Ensure BitLocker drive compatibility,NOT COMPLIANT,high,MDATP,device,2025-09-08T05:00:32.000Z,,0,0
+Disable 'Enumerate administrator accounts on elevation',NOT COMPLIANT,high,MDATP,device,2025-09-08T05:00:32.000Z,,0,0
+Encrypt all BitLocker-supported drives,NOT COMPLIANT,high,MDATP,device,2025-09-08T05:00:32.000Z,,0,0
+Disable 'Autoplay' for all drives,NOT COMPLIANT,high,MDATP,device,2025-09-08T05:00:32.000Z,,0,0
+Resume BitLocker protection on all drives,NOT COMPLIANT,high,MDATP,device,2025-09-08T05:00:32.000Z,,0,0
+Disable SMBv1 client driver,NOT COMPLIANT,high,MDATP,device,2025-09-08T05:00:32.000Z,2025-07-25T00:00:00.000Z,0,0
+Fix unquoted service path for Windows services,NOT COMPLIANT,high,MDATP,device,2025-09-08T05:00:32.000Z,,0,0
+Disallow offline access to shares,NOT COMPLIANT,high,MDATP,device,2025-09-08T05:00:32.000Z,,0,0
+Set folder access-based enumeration for shares,NOT COMPLIANT,high,MDATP,device,2025-09-08T05:00:32.000Z,,0,0
+Turn on Microsoft Defender Antivirus PUA protection in block mode for Linux,NOT COMPLIANT,high,MDATP,device,2025-09-08T05:00:32.000Z,,0,0
+Service Principals should not be assigned with administrative roles at the subscription and resource group level,NOT COMPLIANT,high,MDC,cloud,2025-09-08T01:18:03.000Z,2025-04-21T02:38:46.000Z,0,0
+A maximum of 3 owners should be designated for subscriptions,NOT COMPLIANT,high,MDC,cloud,2025-09-08T01:18:03.000Z,2025-04-21T02:38:46.000Z,0,0
+Privileged roles should not have permanent access at the subscription and resource group level,NOT COMPLIANT,high,MDC,cloud,2025-09-08T01:18:03.000Z,2025-04-21T02:38:46.000Z,0,0
+Machines should be configured to periodically check for missing system updates,NOT COMPLIANT,high,MDC,cloud,2025-09-08T01:18:03.000Z,2025-08-15T22:42:20.000Z,0,0
+Linux virtual machines should enable Azure Disk Encryption or EncryptionAtHost.,NOT COMPLIANT,high,MDC,cloud,2025-09-08T01:18:03.000Z,2025-04-21T02:38:46.000Z,0,0
+EDR solution should be installed on Virtual Machines,NOT COMPLIANT,high,MDC,cloud,2025-09-08T01:18:03.000Z,2025-06-03T20:50:31.000Z,0,0
+SQL databases should have vulnerability findings resolved,NOT COMPLIANT,high,MDC,cloud,2025-09-08T01:18:03.000Z,2025-04-21T02:38:46.000Z,0,0
+EDR configuration issues should be resolved on virtual machines,NOT COMPLIANT,high,MDC,cloud,2025-09-08T01:18:03.000Z,2025-04-21T02:38:46.000Z,0,0
+Role-Based Access Control should be used on Azure Keyvault Services (AKV),NOT COMPLIANT,high,MDC,cloud,2025-09-08T01:18:03.000Z,,0,0
+API Management APIs should use only encrypted protocols,NOT COMPLIANT,high,MDC,cloud,2025-09-08T01:18:03.000Z,2025-09-02T02:40:50.000Z,0,0
+Windows servers should be configured to use secure communication protocols,NOT COMPLIANT,high,MDC,cloud,2025-09-08T01:18:03.000Z,2025-06-02T16:36:30.000Z,0,0
+Redis Cache should allow access only via SSL,NOT COMPLIANT,high,MDC,cloud,2025-09-08T01:18:03.000Z,,0,0
+Managed identity should be enabled on web apps,NOT COMPLIANT,high,MDC,cloud,2025-09-08T01:18:03.000Z,,0,0
+TLS should be updated to the latest version for web apps,NOT COMPLIANT,high,MDC,cloud,2025-09-08T01:18:03.000Z,,0,0
+[Preview] Container images in Azure registry should have vulnerability findings resolved,NOT COMPLIANT,high,MDC,cloud,2025-09-08T01:18:03.000Z,,0,0
+Devices should have vulnerability findings resolved,NOT COMPLIANT,high,Defender for Endpoint,deviceMisconfiguration,,,0,0
